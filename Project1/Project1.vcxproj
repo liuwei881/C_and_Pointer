@@ -126,6 +126,10 @@
     <ClCompile Include="1_2.c" />
     <ClCompile Include="1_3.c" />
     <ClCompile Include="1_4.c" />
+    <ClCompile Include="q_2_1.c" />
+    <ClCompile Include="q_2_3.c" />
+    <ClCompile Include="q_2_4.c" />
+    <ClCompile Include="q_2_8.c" />
     <ClCompile Include="重排字符.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

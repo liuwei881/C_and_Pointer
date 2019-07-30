@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 #define MAX_LEN 1001
-
+#if 0
 int
 main()
 {
@@ -28,3 +28,4 @@ main()
 	}
 	return 0;
 }
+#endif
