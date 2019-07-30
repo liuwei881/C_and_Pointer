@@ -10,6 +10,7 @@ int read_column_numbers(int columns[], int max);
 void rearrange(char* output, char const* input,
 	int n_columns, int const columns[]);
 
+#if 0
 int main()
 {
 	int n_columns; /* 进行处理的列标号*/
@@ -89,6 +90,13 @@ void rearrange(char* output, char const* input, int n_columns, int const columns
 		{
 			break;
 		}
+		if (col + 1 < n_columns)
+		{
+			nchars = columns[col + 1] - columns[col] + 1;
+		}
+		else
+		{
+			nchars = len - columns[col + 1];
 		/*
 		** 如果输出行数据空间不够,只复制可以容纳的数据
 		*/
@@ -104,3 +112,4 @@ void rearrange(char* output, char const* input, int n_columns, int const columns
 	}
 	output[output_col] = '\0';
 }
+#endif

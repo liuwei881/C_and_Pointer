@@ -18,5 +18,14 @@
     <ClCompile Include="重排字符.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="1_2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1_3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1_4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
